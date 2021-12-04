@@ -1,4 +1,5 @@
 from dice_roller import *
+from weapons_parser import get_items
 import os
 
 def handler(command):
@@ -8,6 +9,8 @@ def handler(command):
         roll_simple()
     elif command == '2':
         multiple_roll()
+    elif command == 'w':
+        get_items()
     elif command == 'c':
         os.system('clear')
 
