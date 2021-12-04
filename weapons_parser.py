@@ -1,7 +1,7 @@
 import urllib3
 from bs4 import BeautifulSoup
 
-def get_items():
+def get_weapons():
     # change to whatever your url is
     url = "https://roll20.net/compendium/dnd5e/Weapons#toc_15"
 
